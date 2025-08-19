@@ -1,0 +1,41 @@
+### register 
+POST http://localhost:3000/api/auth/register
+Content-Type: application/json
+
+{
+    "email": "ariefrachmansahertian@gmail.com",
+    "password": "arief140105",
+    "displayName": "Dea"
+}
+
+### login dea
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "ariefrachmansahertian@gmail.com",
+    "password": "arief140105"
+}
+
+### login
+POST http://localhost:3000/api/auth/login
+Content-Type: application/json
+
+{
+    "email": "iw8628940@gmail.com",
+    "password": "arief140105"
+}
+
+### send message
+POST http://localhost:3000/api/message/send
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoiYXJpZWZyYWNobWFuc2FoZXJ0aWFuQGdtYWlsLmNvbSIsImlhdCI6MTc1NTYyNjc2MiwiZXhwIjoxNzU2MjMxNTYyfQ.tCgmck-nE2XBwedSeB4gUWdRod8B5oUyzsBWM16NJkk
+Content-Type: application/json
+
+{
+  "content": "halo juga"
+}
+
+### get all message
+GET http://localhost:3000/api/message/all-message
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjIsImVtYWlsIjoiYXJpZWZyYWNobWFuc2FoZXJ0aWFuQGdtYWlsLmNvbSIsImlhdCI6MTc1NTYyNjc2MiwiZXhwIjoxNzU2MjMxNTYyfQ.tCgmck-nE2XBwedSeB4gUWdRod8B5oUyzsBWM16NJkk
+Content-Type: application/json
