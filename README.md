@@ -1,8 +1,4 @@
-Oke! Berikut versi **README lengkap, rapi, dan siap copy-paste** untuk GitHub. Termasuk API endpoints dan contoh Socket.IO events.
-
----
-
-# Backend Realtime Chat App
+# `Backend Realtime Chat App
 
 ## Overview
 
@@ -205,23 +201,6 @@ socket.on("user:offline", (userId) => {
 
 ---
 
-## Contributing
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature-name`)
-3. Make your changes
-4. Commit (`git commit -m "Add new feature"`)
-5. Push (`git push origin feature-name`)
-6. Open a pull request
-
----
-
 ## License
 
-MIT License © 2025 \[Your Name]
-
----
-
-Kalau mau, saya bisa buatkan juga **versi README versi minimal tapi tetap profesional** yang **lebih ringkas** untuk GitHub supaya lebih clean dan mudah dibaca.
-
-Apakah mau saya buatkan versi ringkasnya juga?
+MIT License © 2025 \Arief Rachman Sahertian
